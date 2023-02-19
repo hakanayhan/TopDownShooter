@@ -18,8 +18,8 @@ MonoBehaviour:
   _axisNameHorizontal: 
   _axisNameVertical: 
   _keyBaseHorizontalActive: 1
-  _positiveHorizontalKeyCode: 113
-  _negativeHorizontalKeyCode: 101
+  _positiveHorizontalKeyCode: 101
+  _negativeHorizontalKeyCode: 113
   _keyBaseVerticalActive: 0
   _positiveVerticalKeyCode: 0
   _negativeVerticalKeyCode: 0
