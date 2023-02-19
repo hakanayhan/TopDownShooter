@@ -5,5 +5,5 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "TopDownShooter/Wheels/Wheels Forward Rotation Settings")]
 public class PlayerWheelsForwardRotationSettings : ScriptableObject
 {
-    [SerializeField] public float HorizontalSpeed = 2f;
+    [SerializeField] public float VerticalSpeed = 2f;
 }

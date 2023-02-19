@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f3687ebfa6f1ac4e9874a218602bfd2, type: 3}
   m_Name: WheelsForwardRotationSettings_LocalPlayer
   m_EditorClassIdentifier: 
-  WheelsForwardRotationTransform: {fileID: 0}
+  VerticalSpeed: 3

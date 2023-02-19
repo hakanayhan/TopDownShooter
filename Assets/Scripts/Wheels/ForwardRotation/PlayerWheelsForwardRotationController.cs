@@ -20,11 +20,16 @@ namespace TopDownShooter.WheelControls
         {
             if (_inputData.Vertical != 0)
             {
-                _wheelFLeft.Rotate(_inputData.Vertical * _wheelsForwardRotationSettings.HorizontalSpeed, 0, 0, Space.Self);
-                _wheelFRight.Rotate(_inputData.Vertical * _wheelsForwardRotationSettings.HorizontalSpeed, 0, 0, Space.Self);
-                _wheelBLeft.Rotate(_inputData.Vertical * _wheelsForwardRotationSettings.HorizontalSpeed, 0, 0, Space.Self);
-                _wheelBRight.Rotate(_inputData.Vertical * _wheelsForwardRotationSettings.HorizontalSpeed, 0, 0, Space.Self);
+                RotateWheelForward(_inputData.Vertical * _wheelsForwardRotationSettings.VerticalSpeed);
             }
+        }
+
+        private void RotateWheelForward(float x)
+        {
+            _wheelFLeft.Rotate(x, 0, 0, Space.Self);
+            _wheelFRight.Rotate(x, 0, 0, Space.Self);
+            _wheelBLeft.Rotate(x, 0, 0, Space.Self);
+            _wheelBRight.Rotate(x, 0, 0, Space.Self);
         }
     }
 }
